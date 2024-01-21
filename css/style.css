@@ -594,12 +594,12 @@ h1 {
   letter-spacing: 0.04em;
   cursor: pointer;
   position: relative;
-   padding: 8px 24px;
+  padding: 8px 24px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
-  
+}
 
 .footer-icon-send {
   display: block;
