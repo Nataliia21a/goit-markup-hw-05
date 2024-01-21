@@ -537,7 +537,7 @@ h1 {
   background-color: #31d0aa;
 }
 
-.footer-input {
+.footer-input-container {
   display: flex;
   flex-direction: column;
   margin-right: 24px;
@@ -571,8 +571,9 @@ h1 {
   letter-spacing: 0.04em;
 }
 
-.footer-section-button {
-  display: flex;
+.footer-button-container {
+  display: block;
+  margin: auto 0;
 }
 
 .footer-button {
@@ -582,18 +583,22 @@ h1 {
   min-width: 165px;
   height: 40px;
   color: #fff;
-  text-align: center;
+  text-align: left;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   position: relative;
   padding: 8px 24px;
+  display: block;
 }
 
 .footer-icon-send {
   display: block;
   position: absolute;
+  bottom: 50%;
+  transform: translateY(50%);
+  right: 24px;
 }
 
 /*--------------MODAL WINDOW-------------------*/
