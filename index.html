@@ -485,7 +485,7 @@
                 placeholder="E-mail"
             /></label>
             <button class="footer-button" type="submit">
-              Subscribe<svg class="footer-icon-send" width="24" height="20">
+              Subscribe<svg class="footer-icon-send" width="24" height="24">
                 <use
                   class="svg-icon-send"
                   href="./images/icons.svg#icon-icon-send"
@@ -496,7 +496,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="button-x">
           <svg class="icon-buttom-x" width="8" height="8">
@@ -508,7 +508,7 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-          <div class="modal-form-inputs">
+          <div class="modal-form-inputs>
             <label for="user-name" class="modal-lable">Name</label>
             <div class="modal-input-wrap">
               <input
@@ -517,14 +517,15 @@
                 type="text"
                 id="user-name"
               />
-              <svg class="modal-icons" width="18" height="18">
+              <svg class="modal-icons" width="18" height="24">
                 <use
                   class="svg-user-name"
                   href="./images/icons.svg#icon-form-name"
                 ></use>
               </svg>
             </div>
-
+          </div>
+          <div class="modal-form-inputs>
             <label for="user-tel" class="modal-lable">Phone</label>
             <div class="modal-input-wrap">
               <input
@@ -540,7 +541,9 @@
                 ></use>
               </svg>
             </div>
+          </div>
 
+          <div class="modal-form-inputs">
             <label for="user-mail" class="modal-lable">Email</label>
             <div class="modal-input-wrap">
               <input
@@ -556,15 +559,16 @@
                 ></use>
               </svg>
             </div>
-
-            <label for="user-comment" class="modal-lable">Comment</label>
-            <textarea
-              class="modal-text"
-              name="user-comment"
-              placeholder="Text input"
-              id="user-comment"
-            ></textarea>
           </div>
+<div class="modal-form-input-comment">
+          <label for="user-comment" class="modal-lable">Comment</label>
+          <textarea
+            class="modal-text"
+            name="user-comment"
+            placeholder="Text input"
+            id="user-comment"
+          ></textarea>
+</div>
           <div class="checkbox-field">
             <input
               type="checkbox"
