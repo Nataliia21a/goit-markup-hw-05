@@ -543,7 +543,7 @@ h1 {
   margin-right: 24px;
 }
 
-.footer-lable {
+.footer-lable-text {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
@@ -571,10 +571,10 @@ h1 {
   letter-spacing: 0.04em;
 }
 
-.footer-button-container {
+/*.footer-button-container {
   display: block;
   margin: auto 0;
-}
+}*/
 
 .footer-button {
   background-color: #4d5ae5;
@@ -584,13 +584,16 @@ h1 {
   height: 40px;
   color: #fff;
   text-align: left;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   position: relative;
   padding: 8px 24px;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-icon-send {
